@@ -1,0 +1,27 @@
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\obj\Debug\Blood Donation Management.csproj.AssemblyReference.cache
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\obj\Debug\LoginPatient.g.cs
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\obj\Debug\MainWindow.g.cs
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\obj\Debug\PatientOrStaffPage.g.cs
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\obj\Debug\App.g.cs
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\obj\Debug\Blood Donation Management_MarkupCompile.cache
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\obj\Debug\Blood Donation Management_MarkupCompile.lref
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\bin\Debug\Blood Donation Management.exe.config
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\bin\Debug\Blood Donation Management.exe
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\bin\Debug\Blood Donation Management.pdb
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\obj\Debug\LoginStaff.g.cs
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\obj\Debug\PatientWantsToView.g.cs
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\obj\Debug\StaffWantsToView.g.cs
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\obj\Debug\LoginPatient.baml
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\obj\Debug\MainWindow.baml
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\obj\Debug\PatientOrStaffPage.baml
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\obj\Debug\LoginStaff.baml
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\obj\Debug\PatientWantsToView.baml
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\obj\Debug\StaffWantsToView.baml
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\obj\Debug\Blood Donation Management.g.resources
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\obj\Debug\Blood_Donation_Management.Properties.Resources.resources
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\obj\Debug\Blood Donation Management.csproj.GenerateResource.cache
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\obj\Debug\Blood Donation Management.csproj.CoreCompileInputs.cache
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\obj\Debug\Blood Donation Management.exe
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\obj\Debug\Blood Donation Management.pdb
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\obj\Debug\StaffViewsPatientDetails.g.cs
+H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\obj\Debug\StaffViewsPatientDetails.baml

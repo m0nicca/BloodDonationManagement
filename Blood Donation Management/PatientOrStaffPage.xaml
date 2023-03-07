@@ -1,0 +1,34 @@
+﻿<Window x:Class="Blood_Donation_Management.PatientOrStaffPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Blood_Donation_Management"
+        mc:Ignorable="d"
+        Background="#e0e1dd" Title="PatientOrStaffPage" Height="982" Width="1512">
+
+    <Border>
+        <Grid>
+
+            <!-- lines -->
+            <Grid.Background>
+                <ImageBrush ImageSource="H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\staff or patient background.png"/>
+            </Grid.Background>
+
+            <!--   inside rectangle   -->
+            <Border Height ="399" Width="792" CornerRadius="20" Background="#64676C" Margin="358,273,355.333,280.667">
+                <Rectangle Height="399" Width="792" Fill="#64676C" Margin="245.5,425" />
+            </Border>
+
+            <!-- Texts -->
+
+            <Label Content="Are you a staff member or a patient?" Foreground="#ffffff" FontSize="24" FontFamily="Courier New" Margin="476,331,476.333,571.667" Height="50"/>
+
+            <!-- buttons -->
+
+            <Button Content="PATIENT" Margin="652,436,651.333,473.667" Click="Button_Patient" FontSize="15"/>
+            <Button Content="STAFF" Margin="654,526,649.333,383.667" Click="Button_Staff" FontSize="15"/>
+
+        </Grid>
+    </Border>
+</Window>

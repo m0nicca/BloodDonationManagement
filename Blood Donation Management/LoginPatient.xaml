@@ -1,0 +1,49 @@
+﻿<Window x:Class="Blood_Donation_Management.LoginPatient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Blood_Donation_Management"
+        mc:Ignorable="d"
+        Title="LoginPatient" Height="982" Width="1512">
+    <Border>
+        <Grid>
+
+            <!-- background -->
+            <Grid.Background>
+                <ImageBrush ImageSource="H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\patient login background.png"/>
+            </Grid.Background>
+
+            <!-- logo -->
+            <Button Background="Transparent" HorizontalAlignment="Left" 
+                    VerticalAlignment="Top" Width="372" Height="63" Click="Button_logo_PL" BorderBrush="Transparent"/>
+            <!-- Texts -->
+
+            <!--  inside rectangle -->
+
+            <Border CornerRadius="20" Background="#d9d9d9" Margin="474,160,456.333,167.667">
+                <Rectangle Height="399" Width="792" Fill="#d9d9d9" Margin="245.5,425" />
+            </Border>
+
+            <Label Content="Patient Log In" Foreground="#000000" FontSize="45" FontFamily="Courier New" Margin="554,217,554.333,665.667" FontWeight="Bold"/>
+
+            <Rectangle Height="40" Width="250" Fill="#778da9" Margin="629,812,626.333,100.667"></Rectangle>
+
+            <Label Content="Patient ID:" Foreground="#000000" FontSize="25" FontFamily="Courier New" Margin="554,351,554.333,531.667"/>
+
+            <TextBox x:Name="txtPatientID" Background="#ffffff" Foreground="black" FontSize="18" Width="423" Height="56" Margin="554,390,528.333,506.667"/>
+
+            <Label Content="Password:" Foreground="#000000" FontSize="25" FontFamily="Courier New" Margin="554,466,554.333,416.667"/>
+
+            <PasswordBox x:Name="txtPatientPassword" Background="#ffffff" Foreground="black" FontSize="18" Width="423" Height="56" Margin="554,505,528.333,391.667"/>
+
+            <Button Content="Log In" Foreground="#778da9" FontSize="25" FontFamily="Montserrat Alternates" Height ="61"  
+                    Margin="669,662,670.333,229.667" Click="Button_Login_PL" Background="#FF415A77" RenderTransformOrigin="0,0"/>
+
+            <Button Content="Previous Page" FontFamily="Courier New" FontSize="25" Margin="567,796,554.333,100.667" Background="#FF778DA9" Click="Button_Previous"/>
+
+
+
+        </Grid>
+    </Border>
+</Window>

@@ -1,0 +1,88 @@
+﻿<Window x:Class="Blood_Donation_Management.StaffWantsToView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Blood_Donation_Management"
+        mc:Ignorable="d"
+        Title="StaffWantsToView" Height="982" Width="1512">
+
+    <Grid>
+
+        <Grid.Background>
+            <ImageBrush ImageSource="H:\12 gr Informatics\Blood Donation Management\Blood Donation Management\staff wants to view background.png"/>
+        </Grid.Background>
+        <Border CornerRadius="7" Background="#E0E1DD" Margin="200,379,947.333,500.667">
+
+            <Button Height="399" Width="792" Margin="245.5,425" />
+        </Border>
+        <Label Content="Patient Details" Foreground="#415A77" FontSize="30"
+            FontFamily="Maven Pro" Margin="276,391,1029.333,511.667" Height="50"/>
+        <Border CornerRadius="7" Background="#E0E1DD" Margin="200,505,947.333,374.667">
+
+
+            <Button Height="399" Width="792" Margin="245.5,425" />
+        </Border>
+        <Label Content="Hospitalization" Foreground="#415A77" FontSize="30"
+            FontFamily="Maven Pro" Margin="271,518,1020.333,384.667" Height="50"/>
+        <Border CornerRadius="7" Background="#E0E1DD" Margin="962,379,185.333,500.667">
+
+
+            <Button Height="399" Width="792" Margin="245.5,425" />
+        </Border>
+        <Label Content="Donor Details" Foreground="#415A77" FontSize="30"
+            FontFamily="Maven Pro" Margin="1038,391,267.333,511.667" Height="50"/>
+        <Border CornerRadius="7" Background="#E0E1DD" Margin="960,505,187.333,374.667">
+
+
+            <Button Height="399" Width="792" Margin="245.5,425" />
+        </Border>
+        <Label Content="Hospitalization" Foreground="#415A77" FontSize="30"
+            FontFamily="Maven Pro" Margin="1031,518,260.333,384.667" Height="50"/>
+        <Border CornerRadius="7" Background="#E0E1DD" Margin="574,794,573.333,85.667">
+
+
+            <Button Height="399" Width="792" Margin="245.5,425" />
+        </Border>
+        <Label Content="Blood Banks" Foreground="#415A77" FontSize="30"
+            FontFamily="Maven Pro" Margin="668,807,660.333,95.667" Height="50"/>
+        <Border Height="72" Width="872" CornerRadius="12" Background="#64676C" Margin="318,101,315.333,779.667">
+            <Rectangle Height="399" Width="792" Fill="#64676C" Margin="245.5,425" />
+        </Border>
+        <Label Content="Please choose what information you want to access: " Foreground="#E6E6E6" FontSize="30"
+            FontFamily="Montserrat Alternates" Margin="404,115,406.333,787.667" Height="50"/>
+        <Border Height="52" CornerRadius="7
+                " Background="#64676C" Margin="284,235,1031.333,665.667">
+            <Rectangle Height="399" Width="792" Fill="#64676C" Margin="245.5,425" />
+        </Border>
+        <Label Content="Patients:" Foreground="#E6E6E6" FontSize="30"
+            FontFamily="Montserrat Alternates" Margin="316,237,1064.333,665.667" Height="50"/>
+        <Border Height="52" CornerRadius="7                 " Background="#64676C" Margin="1045,233,270.333,667.667">
+            <Rectangle Height="399" Width="792" Fill="#64676C" Margin="245.5,425" />
+        </Border>
+        <Label Content="Donors:" Foreground="#E6E6E6" FontSize="30"
+            FontFamily="Montserrat Alternates" Margin="1077,235,303.333,667.667" Height="50"/>
+        <Border Height="52" CornerRadius="7                 " Background="#64676C" Margin="633,727,630.333,173.667">
+            <Rectangle Height="399" Width="792" Fill="#64676C" Margin="245.5,425" />
+        </Border>
+        <Label Content="Blood banks:" Foreground="#E6E6E6" FontSize="30"
+            FontFamily="Montserrat Alternates" Margin="667,729,660.333,173.667" Height="50"/>
+
+        <!-- logo -->
+        <Button Background="Transparent" HorizontalAlignment="Left"
+            VerticalAlignment="Top" Width="372" Height="63" BorderBrush="Transparent" Click="Button_logo"/>
+
+        <!-- transparent buttons -->
+        <Button Background="Transparent" HorizontalAlignment="Left"
+            VerticalAlignment="Top" Width="416" Height="73" BorderBrush="Transparent" Click="Button_PatientDetails" Margin="168,379,0,0"/>
+        <Button Background="Transparent" HorizontalAlignment="Left"
+            VerticalAlignment="Top" Width="416" Height="73" BorderBrush="Transparent" Click="Button_PatientHospitalization" Margin="168,505,0,0"/>
+        <Button Background="Transparent" HorizontalAlignment="Left"
+            VerticalAlignment="Top" Width="416" Height="73" BorderBrush="Transparent" Click="Button_DonorHospitalization" Margin="921,505,0,0"/>
+        <Button Background="Transparent" HorizontalAlignment="Left"
+            VerticalAlignment="Top" Width="416" Height="73" BorderBrush="Transparent" Click="Button_DonorDetails" Margin="921,379,0,0"/>
+        <Button Background="Transparent" HorizontalAlignment="Left"
+            VerticalAlignment="Top" Width="416" Height="73" BorderBrush="Transparent" Click="Button_BloodBanks" Margin="535,794,0,0"/>
+
+    </Grid>
+</Window>
